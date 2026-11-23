@@ -1,0 +1,28 @@
+name: planlama_1
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.1+2
+
+environment:
+  sdk: ^3.13.7
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  http: ^1.2.2
+  cupertino_icons: ^1.0.8
+  shared_preferences: ^2.5.6
+  flutter_local_notifications: ^23.0.1
+  timezone: ^0.11.2
+  home_widget: ^0.10.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
